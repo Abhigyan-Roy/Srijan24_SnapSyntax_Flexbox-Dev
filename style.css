@@ -144,7 +144,7 @@ nav ul li{
 {
     padding: 10px 10px 10px 20px;
     font-size: 20px;
-    color: #b6b6b6;
+    color: #f3f3f3;
 }
 #myimage
 {
@@ -173,9 +173,10 @@ footer
     grid-template-columns: 35% 50%;
     gap: 15%;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     padding: 0px;
     margin-top: 100px;
+    font-family: "Roboto", sans-serif;
 }
 .contact
 {
@@ -214,7 +215,7 @@ footer
 }
 .projects
 {
-    font-size: 20px;
+    font-size: 15px;
 }
 #socials>div:nth-child(2)
 {
@@ -225,12 +226,13 @@ footer
 }
 .icons
 {
-    height: 20px;
+    height: 15px;
     width: auto;
+    margin-right: 5px;
 }
 .link
 {
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     color: #b6b6b6;
