@@ -112,3 +112,127 @@ nav ul li{
     font-size: 50px;
     font-family: "Roboto", sans-serif;
 }
+#left , #right
+{
+    /* border: 1px solid yellow; */
+    height: 100%;
+}
+#left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#left >div:nth-child(2)
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+    /* border: 1px solid white; */
+}
+#name
+{
+    /* border: 1px solid white; */
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+#description
+{
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+    color: #b6b6b6;
+}
+#myimage
+{
+    width: 60%;
+    height: auto;
+}
+#imageDetails
+{
+    padding: 10px;
+    color: #b6b6b6;
+}
+#right > div:nth-child(1)
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+    padding: 20px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin-top: 100px;
+}
+.contact
+{
+    font-size: 30px;
+    /* padding: 20px; */
+}
+#email
+{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    width: min-content;
+    padding: 18px;
+    font-size: 20px;
+}
+#right > div:nth-child(2)
+{
+    /* border: 1px solid yellow; */
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 20px;
+    gap: 30px;
+}
+
+#projectsSection>div:nth-child(1) , #socials>div:nth-child(1)
+{
+    font-size: 35px;
+    padding: 40px 40px 40px 0px;
+}
+#projectsSection>div:nth-child(2)
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.projects
+{
+    font-size: 20px;
+}
+#socials>div:nth-child(2)
+{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 25px 25px;
+    gap: 25px;
+}
+.icons
+{
+    height: 20px;
+    width: auto;
+}
+.link
+{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #b6b6b6;
+    /* border: 1px solid yellow; */
+}
